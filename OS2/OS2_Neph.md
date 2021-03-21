@@ -1,3 +1,4 @@
+[블로그 포스팅 링크](https://neph3779.github.io/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/2-%EC%BB%B4%ED%93%A8%ED%84%B0-%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%9D%98-%EB%8F%99%EC%9E%91-%EC%9B%90%EB%A6%AC/)
 
 ## 컴퓨터 시스템의 구조
 
