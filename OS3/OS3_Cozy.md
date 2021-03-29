@@ -2,9 +2,9 @@
 
 실행중인 프로그램. PCB는 커널의 프로세스마다 하나씩 갖고 있다. 
 
+![img](https://blog.kakaocdn.net/dn/OqWzJ/btq1dyJMpZL/do75SHiF55DotZppsGPT9K/img.png){: width="300" height="300"}
 
 
-![img](https://blog.kakaocdn.net/dn/OqWzJ/btq1dyJMpZL/do75SHiF55DotZppsGPT9K/img.png)
 
 
 
@@ -32,9 +32,9 @@ PC가 어디부분까지 실행되었는지, 메모리에 어떤 내용을 어�
 
 
 
-![img](https://blog.kakaocdn.net/dn/cqACqR/btq1dyJKt0V/AG8kdBd871UU9ReP9eJvbK/img.png)
+![img](https://blog.kakaocdn.net/dn/cqACqR/btq1dyJKt0V/AG8kdBd871UU9ReP9eJvbK/img.png){: width="300" height="300"}
 
-![img](https://blog.kakaocdn.net/dn/tWkPm/btq1nHynxrJ/oaDIfRjdH44yd20SAlShXK/img.png)
+![img](https://blog.kakaocdn.net/dn/tWkPm/btq1nHynxrJ/oaDIfRjdH44yd20SAlShXK/img.png){: width="300" height="300"}
 
 
 
@@ -70,7 +70,7 @@ PC가 어디부분까지 실행되었는지, 메모리에 어떤 내용을 어�
 
 
 
-![img](https://blog.kakaocdn.net/dn/bnTmzK/btq1bgv0hRu/taw79p4LLuCBrbwBYgkqN0/img.png)PCB 하나당 갖고 있는 정보
+![img](https://blog.kakaocdn.net/dn/bnTmzK/btq1bgv0hRu/taw79p4LLuCBrbwBYgkqN0/img.png){: width="300" height="300"}PCB 하나당 갖고 있는 정보
 
 
 
@@ -102,7 +102,7 @@ Priorty: 우선순위가 높은 프로세스한테 다음번 CPU를 넘겨주는
 
 
 
-![img](https://blog.kakaocdn.net/dn/QHXnV/btq1laAX06O/DKkgWoK6n2erXDokezPqS0/img.png)프로세스 상태도
+![img](https://blog.kakaocdn.net/dn/QHXnV/btq1laAX06O/DKkgWoK6n2erXDokezPqS0/img.png){: width="300" height="300"}프로세스 상태도
 
 
 
@@ -126,7 +126,7 @@ Priorty: 우선순위가 높은 프로세스한테 다음번 CPU를 넘겨주는
 
 
 
-![img](https://blog.kakaocdn.net/dn/bGiw1c/btq1jlbF8eO/uIGRJ3WHhB1MoCrC3fGkJK/img.png)프로세스의 상태
+![img](https://blog.kakaocdn.net/dn/bGiw1c/btq1jlbF8eO/uIGRJ3WHhB1MoCrC3fGkJK/img.png){: width="300" height="300"}프로세스의 상태
 
 
 
@@ -154,8 +154,8 @@ Priorty: 우선순위가 높은 프로세스한테 다음번 CPU를 넘겨주는
 
 **운영체제의 커널이 하는 역할** 
 
-\1. 4)번 작업인 I/O을 요청했던 프로세스의 작업이 끝났으면 그 프로세스의 메모리 영역에 해당하는 데이터를 넘겨주는 역할
-\2. Disk I/O queue 상태를 blocked에서 Ready로 바꾸어 CPU를 얻을 수 있는 자격을 준다. 
+1.  4)번 작업인 I/O을 요청했던 프로세스의 작업이 끝났으면 그 프로세스의 메모리 영역에 해당하는 데이터를 넘겨주는 역할
+2. Disk I/O queue 상태를 blocked에서 Ready로 바꾸어 CPU를 얻을 수 있는 자격을 준다.
 
  
 
@@ -171,9 +171,9 @@ Priorty: 우선순위가 높은 프로세스한테 다음번 CPU를 넘겨주는
 
 
 
-![img](https://blog.kakaocdn.net/dn/b8VeOG/btq1beydw84/CQfFr954GekpNc0PrFM6k0/img.png)
+![img](https://blog.kakaocdn.net/dn/b8VeOG/btq1beydw84/CQfFr954GekpNc0PrFM6k0/img.png){: width="300" height="300"}
 
-![img](https://blog.kakaocdn.net/dn/JBr2i/btq1ovYLVKC/xArIPZUD5unLRk7sU3bO81/img.png)PCB의 구성요소 Pointer가 있어 줄줄이 연결 시키는 상황
+![img](https://blog.kakaocdn.net/dn/JBr2i/btq1ovYLVKC/xArIPZUD5unLRk7sU3bO81/img.png){: width="300" height="300"}PCB의 구성요소 Pointer가 있어 줄줄이 연결 시키는 상황
 
 
 
@@ -229,7 +229,7 @@ Priorty: 우선순위가 높은 프로세스한테 다음번 CPU를 넘겨주는
 
 
 
-![img](https://blog.kakaocdn.net/dn/AYNgN/btq1bgv5b3l/UlAcaEv0uXBbIrKqxOKjek/img.png)CPU 관점. 중기 스케줄러 때문에 추가된 Suspended(stopped) 상태
+![img](https://blog.kakaocdn.net/dn/AYNgN/btq1bgv5b3l/UlAcaEv0uXBbIrKqxOKjek/img.png){: width="300" height="300"}CPU 관점. 중기 스케줄러 때문에 추가된 Suspended(stopped) 상태
 
 
 
@@ -249,7 +249,7 @@ Suspended: 외부에서 정지(타의) -> Active
 
 
 
-![img](https://blog.kakaocdn.net/dn/7CVhw/btq1g9Qf6Ez/tza7owJaMfS3K4iD8HGHX0/img.png)사용자 프로그램의 상태도
+![img](https://blog.kakaocdn.net/dn/7CVhw/btq1g9Qf6Ez/tza7owJaMfS3K4iD8HGHX0/img.png){: width="300" height="300"}사용자 프로그램의 상태도
 
 
 
