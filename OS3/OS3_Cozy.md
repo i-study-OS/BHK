@@ -253,7 +253,7 @@ Suspended: 외부에서 정지(타의) -> Active
 
 
 
-<img src="https://blog.kakaocdn.net/dn/7CVhw/btq1g9Qf6Ez/tza7owJaMfS3K4iD8HGHX0/img.png" style="height:200px" />
+<img src="https://blog.kakaocdn.net/dn/7CVhw/btq1g9Qf6Ez/tza7owJaMfS3K4iD8HGHX0/img.png" style="height:100px" />
 
 사용자 프로그램의 상태도
 
