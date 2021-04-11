@@ -1,3 +1,9 @@
+[블로그 정리글 링크1](https://neph3779.github.io/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/7-CPU-%EC%8A%A4%EC%BC%80%EC%A5%B4%EB%A7%81-2/)
+
+[블로그 정리글 링크2](https://neph3779.github.io/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/8-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EB%8F%99%EA%B8%B0%ED%99%94-1/)
+
+
+
 ## 스케쥴링의 성능 평가
 
 ### CPU 이용률
