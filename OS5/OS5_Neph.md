@@ -54,7 +54,8 @@ CPU 이용률은 전체 시간 중에서 CPU가 일을 한 시간의 비율이�
 
 
 
-![render](/Users/chunsoohyun/Documents/Blog/assets/OS/6/render.png)
+![render](https://user-images.githubusercontent.com/67148595/114304545-b8f76300-9b0e-11eb-95d6-090c16d3d812.png)
+
 
 SJF 알고리즘은 평균 대기시간을 최소화하는 알고리즘이지만 시스템에서 단순히 평균치를 줄이는 것이 최선이 아닌 경우도 있다. CPU 버스트가 짧은 프로세스에게만 CPU를 할당할 경우 CPU 버스트가 긴 프로세스는 준비 큐에서 무한히 기다리는 상황이 발생할 수도 있기 때문이다. 이러한 현상을 기아 현상(starvation) 이라 한다.
 
@@ -106,7 +107,8 @@ SJF 알고리즘은 평균 대기시간을 최소화하는 알고리즘이지만
 
 멀티레벨 피드백 큐의 대표적인 방식은 아래의 그림과 같다.
 
-<img src="/Users/chunsoohyun/Documents/Blog/assets/OS/6/MultilevelFeedbackQueues.png" alt="MultilevelFeedbackQueues" style="zoom: 33%;" />
+<img width="902" alt="MultilevelFeedbackQueues" src="https://user-images.githubusercontent.com/67148595/114304550-bf85da80-9b0e-11eb-9f65-6812e725e134.png">
+
 
 그림에서 상위로 갈수록 우선순위가 높은 큐이며 상위 두개의 큐는 라운드 로빈 방식을, 가장 하단의 큐는 FCFS 방식을 사용한다고 가정하자. 모든 프로세스는 도착시 최상위 큐에가서 줄을 선다. 만약 할당시간(quantum)동안 작업이 끝나지 않았다면 하위 큐로 이동하여 순서를 기다린다. 이러한 방식을 사용하면 프로세스의 CPU 작업시간을 다단계로 분류함으로써 작업시간이 짧은 프로세스일수록 더욱 빠른 서비스가 가능해지고 작업시간이 긴 프로세스는 문맥교환으로 인한 오버헤드를 최소화 시키며 작업시킬 수 있다.
 
@@ -165,7 +167,8 @@ SJF 알고리즘은 평균 대기시간을 최소화하는 알고리즘이지만
 
 ### 1. 커널 작업중 인터럽트 발생
 
-<img src="/Users/chunsoohyun/Documents/Blog/assets/OS/8/1.png" alt="1" style="zoom: 50%;" />
+<img width="624" alt="1" src="https://user-images.githubusercontent.com/67148595/114304555-cc0a3300-9b0e-11eb-8417-f4190d7c04da.png">
+
 
 커널 작업중 인터럽트가 발생하여 커널 내의 같은 변수에 접근하는 경우에는 커널 작업이 끝날때까지 인터럽트를 막음으로써 해결할 수 있다.
 
@@ -173,7 +176,8 @@ SJF 알고리즘은 평균 대기시간을 최소화하는 알고리즘이지만
 
 ### 2. 시스템 콜 실행중 문맥교환이 일어나는 경우
 
-<img src="/Users/chunsoohyun/Documents/Blog/assets/OS/8/2.png" alt="2" style="zoom:50%;" />
+<img width="627" alt="2" src="https://user-images.githubusercontent.com/67148595/114304557-ce6c8d00-9b0e-11eb-972d-5705245d8427.png">
+
 
 P_A가 CPU를 사용하다가 Count라는 변수를 읽도록 지시하였는데 (시스템 콜을 통해) 그 사이에 할당시간이 만료되어 P_B가 CPU를 사용하게 되는 경우가 있다고 가정하자. 이때 P_B도 Count라는 같은 변수에 접근한다면 P_A는 P_B에 의해 바뀐 Count 값이 아닌 (이미 1 증가한 Count 값이 아닌) 기존의 Count 값을 증가한다. 이런 상황을 해결하기 위해 커널 모드에서 작업중인 경우에는 preempt(CPU를 뺏어가는 행위) 하지 않는다. 대신 커널 모드에서 사용자 모드로 돌아갈 때 preempt를 진행한다.
 
@@ -181,7 +185,8 @@ P_A가 CPU를 사용하다가 Count라는 변수를 읽도록 지시하였는데
 
 ### 3. 멀티프로세서에서의 공유데이터 접근문제
 
-<img src="/Users/chunsoohyun/Documents/Blog/assets/OS/8/3.png" alt="3" style="zoom:50%;" />
+<img width="620" alt="3" src="https://user-images.githubusercontent.com/67148595/114304560-d1677d80-9b0e-11eb-8b8f-aa07594ece5c.png">
+
 
 멀티프로세서에서의 공유데이터 접근문제는 개별 데이터에 대해 lock을 걸어주는 방법이 있다. 다른 방법으로는 커널은 접근을 매 순간 하나의 CPU만이 할 수 있도록 하는 방법도 존재한다. 
 
