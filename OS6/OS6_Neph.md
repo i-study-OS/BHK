@@ -1,3 +1,5 @@
+[Blog 정리글 링크](https://neph3779.github.io/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C/9-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4-%EB%8F%99%EA%B8%B0%ED%99%94-2/)
+
 ## Critical Section 관리 알고리즘의 발전
 
 
@@ -105,7 +107,8 @@ critical section 관련 문제 발생의 이유 : 메모리에 읽는 작업 + �
 
 ### Test_and_set
 
-<img src="/Users/chunsoohyun/Documents/Blog/assets/OS/9/1.png" alt="1" style="zoom:50%;" />
+<img width="206" alt="1" src="https://user-images.githubusercontent.com/67148595/115144440-9671c680-a087-11eb-9ac7-eb8f031ee3c7.png">
+
 
 Test_and_set은 읽어오는 작업과 동시에 쓰는 작업을 실행할 수 있음 (하드웨어적 해결)
 
@@ -182,7 +185,8 @@ do {
 
 ### Semaphore 자료형의 정의
 
-<img src="/Users/chunsoohyun/Documents/Blog/assets/OS/9/2.png" alt="2" style="zoom:50%;" />
+<img width="426" alt="2" src="https://user-images.githubusercontent.com/67148595/115144442-9d003e00-a087-11eb-9afc-5ad643719c9e.png">
+
 
 ```c++
 typedef struct
@@ -271,7 +275,9 @@ critical section의 길이가 길어지면 starvation 현상이 발생함
 
 둘 이상의 프로세스가 서로 상대방에 의해 충족될 수 있는 event를 무한히 기다리는 현상을 Deadlock 현상이라 한다.
 
-<img src="/Users/chunsoohyun/Documents/Blog/assets/OS/9/3.png" alt="3" style="zoom:50%;" />
+
+<img width="488" alt="3" src="https://user-images.githubusercontent.com/67148595/115144443-a1c4f200-a087-11eb-9cc0-4e7c6deb97c9.png">
+
 
 위 처럼 P연산이 연달아 일어나지만 실행되지 못하고 기다리는 경우
 
